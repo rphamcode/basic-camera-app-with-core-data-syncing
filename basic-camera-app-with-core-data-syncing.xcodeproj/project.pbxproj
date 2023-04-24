@@ -17,6 +17,7 @@
 		5A262D7C29F6D07D00FEFE3B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */; };
 		5A262D7E29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */; };
 		5A262D8029F6D78D00FEFE3B /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7F29F6D78D00FEFE3B /* ViewExtension.swift */; };
+		5A262D8229F6D92C00FEFE3B /* CameraOutputDelegateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D8129F6D92C00FEFE3B /* CameraOutputDelegateModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVVideoCaptureOrientationExtension.swift; sourceTree = "<group>"; };
 		5A262D7F29F6D78D00FEFE3B /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		5A262D8129F6D92C00FEFE3B /* CameraOutputDelegateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraOutputDelegateModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		5A262D7529F6CF2000FEFE3B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5A262D8129F6D92C00FEFE3B /* CameraOutputDelegateModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				5A262D6F29F6CE0800FEFE3B /* basic_camera_app_with_core_data_syncing.xcdatamodeld in Sources */,
 				5A262D6C29F6CE0800FEFE3B /* Persistence.swift in Sources */,
+				5A262D8229F6D92C00FEFE3B /* CameraOutputDelegateModel.swift in Sources */,
 				5A262D7A29F6CFB000FEFE3B /* CameraPermission.swift in Sources */,
 				5A262D6529F6CE0600FEFE3B /* ContentView.swift in Sources */,
 				5A262D7E29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift in Sources */,
