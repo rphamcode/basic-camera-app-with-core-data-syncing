@@ -16,6 +16,7 @@
 		5A262D7A29F6CFB000FEFE3B /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7929F6CFB000FEFE3B /* CameraPermission.swift */; };
 		5A262D7C29F6D07D00FEFE3B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */; };
 		5A262D7E29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */; };
+		5A262D8029F6D78D00FEFE3B /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7F29F6D78D00FEFE3B /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5A262D7929F6CFB000FEFE3B /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVVideoCaptureOrientationExtension.swift; sourceTree = "<group>"; };
+		5A262D7F29F6D78D00FEFE3B /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */,
 				5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */,
+				5A262D7F29F6D78D00FEFE3B /* ViewExtension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				5A262D6529F6CE0600FEFE3B /* ContentView.swift in Sources */,
 				5A262D7E29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift in Sources */,
 				5A262D6329F6CE0600FEFE3B /* BasicCoreDataCamera.swift in Sources */,
+				5A262D8029F6D78D00FEFE3B /* ViewExtension.swift in Sources */,
 				5A262D7C29F6D07D00FEFE3B /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
