@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A262D6329F6CE0600FEFE3B /* basic_camera_app_with_core_data_syncingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D6229F6CE0600FEFE3B /* basic_camera_app_with_core_data_syncingApp.swift */; };
+		5A262D6329F6CE0600FEFE3B /* BasicCoreDataCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D6229F6CE0600FEFE3B /* BasicCoreDataCamera.swift */; };
 		5A262D6529F6CE0600FEFE3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D6429F6CE0600FEFE3B /* ContentView.swift */; };
 		5A262D6729F6CE0800FEFE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A262D6629F6CE0800FEFE3B /* Assets.xcassets */; };
 		5A262D6A29F6CE0800FEFE3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A262D6929F6CE0800FEFE3B /* Preview Assets.xcassets */; };
 		5A262D6C29F6CE0800FEFE3B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D6B29F6CE0800FEFE3B /* Persistence.swift */; };
 		5A262D6F29F6CE0800FEFE3B /* basic_camera_app_with_core_data_syncing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D6D29F6CE0800FEFE3B /* basic_camera_app_with_core_data_syncing.xcdatamodeld */; };
+		5A262D7A29F6CFB000FEFE3B /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7929F6CFB000FEFE3B /* CameraPermission.swift */; };
+		5A262D7C29F6D07D00FEFE3B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */; };
+		5A262D7E29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A262D5F29F6CE0600FEFE3B /* basic-camera-app-with-core-data-syncing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basic-camera-app-with-core-data-syncing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A262D6229F6CE0600FEFE3B /* basic_camera_app_with_core_data_syncingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_camera_app_with_core_data_syncingApp.swift; sourceTree = "<group>"; };
+		5A262D6229F6CE0600FEFE3B /* BasicCoreDataCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCoreDataCamera.swift; sourceTree = "<group>"; };
 		5A262D6429F6CE0600FEFE3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A262D6629F6CE0800FEFE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A262D6929F6CE0800FEFE3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A262D6B29F6CE0800FEFE3B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5A262D6E29F6CE0800FEFE3B /* basic_camera_app_with_core_data_syncing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = basic_camera_app_with_core_data_syncing.xcdatamodel; sourceTree = "<group>"; };
+		5A262D7929F6CFB000FEFE3B /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVVideoCaptureOrientationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,15 @@
 		5A262D6129F6CE0600FEFE3B /* basic-camera-app-with-core-data-syncing */ = {
 			isa = PBXGroup;
 			children = (
-				5A262D6229F6CE0600FEFE3B /* basic_camera_app_with_core_data_syncingApp.swift */,
+				5A262D6229F6CE0600FEFE3B /* BasicCoreDataCamera.swift */,
 				5A262D6429F6CE0600FEFE3B /* ContentView.swift */,
-				5A262D6629F6CE0800FEFE3B /* Assets.xcassets */,
 				5A262D6B29F6CE0800FEFE3B /* Persistence.swift */,
 				5A262D6D29F6CE0800FEFE3B /* basic_camera_app_with_core_data_syncing.xcdatamodeld */,
+				5A262D7729F6CF3A00FEFE3B /* Models */,
+				5A262D7629F6CF3000FEFE3B /* Views */,
+				5A262D7529F6CF2000FEFE3B /* ViewModels */,
+				5A262D7829F6CF4800FEFE3B /* Helpers */,
+				5A262D6629F6CE0800FEFE3B /* Assets.xcassets */,
 				5A262D6829F6CE0800FEFE3B /* Preview Content */,
 			);
 			path = "basic-camera-app-with-core-data-syncing";
@@ -71,6 +81,37 @@
 				5A262D6929F6CE0800FEFE3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A262D7529F6CF2000FEFE3B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A262D7629F6CF3000FEFE3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A262D7729F6CF3A00FEFE3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A262D7929F6CFB000FEFE3B /* CameraPermission.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A262D7829F6CF4800FEFE3B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5A262D7B29F6D07D00FEFE3B /* UIImageExtension.swift */,
+				5A262D7D29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +186,11 @@
 			files = (
 				5A262D6F29F6CE0800FEFE3B /* basic_camera_app_with_core_data_syncing.xcdatamodeld in Sources */,
 				5A262D6C29F6CE0800FEFE3B /* Persistence.swift in Sources */,
+				5A262D7A29F6CFB000FEFE3B /* CameraPermission.swift in Sources */,
 				5A262D6529F6CE0600FEFE3B /* ContentView.swift in Sources */,
-				5A262D6329F6CE0600FEFE3B /* basic_camera_app_with_core_data_syncingApp.swift in Sources */,
+				5A262D7E29F6D51700FEFE3B /* AVVideoCaptureOrientationExtension.swift in Sources */,
+				5A262D6329F6CE0600FEFE3B /* BasicCoreDataCamera.swift in Sources */,
+				5A262D7C29F6D07D00FEFE3B /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
